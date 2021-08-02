@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:blue ;
+  display: flex;
+
+}
+#draggable {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background: white; 
+   background-image: url(C:\Users\USUARIO\Desktop\Programate\Retos\Drag\Monster-head.svg); 
+}
+.dropzone {
+  width: 200px;
+  height: 200px;
+  background: blueviolet;
+  margin:10px;
+  border-style: solid;
+  
+}
+
+@media (max-width: 800px) {
+}
+/* 
+.empty {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background: yellow;
+  justify-content: center;
+  align-items: center;
+  border-color: #000;
+  border-style: solid;
+} 
+
+.fill {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  border-color: #000;
+  border-style: solid;
+} */
+/* 
+.hold {
+  border: ;
+} */
+/* 
+.hovered {
+  : dashed;
+} */
+
