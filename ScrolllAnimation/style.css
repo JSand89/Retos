@@ -25,13 +25,17 @@ h1 {
   width: 400px;
   height: 200px;
   margin: 10px;
-}
+  display:none;
 
-.box:nth-of-type(even) {/* este es el pedaso que hace que salgan de derecha a izquierda*/
 }
+/* este es el pedaso que hace que salgan de derecha a izquierda*/
 
+/* .box:nth-of-type(even) {
+  }
+*/
 .box.show {
-}
+  display:flex;
+} 
 
 .box h2 {
   font-size: 45px;

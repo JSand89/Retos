@@ -14,7 +14,7 @@ function checkBoxes() {
     boxes.forEach(box => {
         const boxTop = box.getBoundingClientRect().top
         console.log(boxTop)
-         
+         //usar un if para comprobar donde esta si esta dentro de la ventana si esta cambiarle el estado al .show
         
     })
     
