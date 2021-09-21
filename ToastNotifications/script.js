@@ -15,8 +15,10 @@ button.addEventListener('click', () => createNotification())
 function createNotification(message = null, type = null) {
     console.log('haciendo click')
     console.log(getRandomMessage())
-    let mes=messages[id]
-
+    let element=document.createElement("div")
+    element.classList.add('toast')
+    element.textContent=messages[getRandomMessage()]
+    toasts.appendChild(element)
 }
 
 function getRandomMessage() {
@@ -28,5 +30,8 @@ function getRandomMessage() {
 }
 
 function getRandomType() {
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+      }
     
 }
