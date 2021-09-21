@@ -21,20 +21,26 @@ h1 {
 
 .box {
   background-color: steelblue;
-  color: #fff;
+  color: #f4f4f4;
   width: 400px;
   height: 200px;
   margin: 10px;
-  display:none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: ease-in 1s;
+
 
 }
 /* este es el pedaso que hace que salgan de derecha a izquierda*/
 
 /* .box:nth-of-type(even) {
-  }
-*/
-.box.show {
-  display:flex;
+  } */
+
+.show {
+opacity: 1;
+ transition: ease-in 1s;
 } 
 
 .box h2 {
